@@ -1,0 +1,15 @@
+{
+    "name": "steinschlag/calculator",
+    "description": "A simple calculator",
+    "type": "libary",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Steinschlag\\Calculator\\": "src/"
+        }
+    },
+    "require": {},
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
