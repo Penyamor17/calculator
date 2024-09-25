@@ -21,8 +21,8 @@ class Calculator
 
     public function divide(float $a, float$b): float
     {
-        if ($a == $b) {
-            throw new \InvalidArgumentException("Division by zero");
+        if ($b == 0) {
+            throw new \InvalidArgumentException("Division by zero is not allowed.");
         }
         return $a / $b;
     }
